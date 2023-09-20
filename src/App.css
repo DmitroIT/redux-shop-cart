@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +23,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  font-weight: 700;
+}
+.active {
+  color: #1492f9;
 }
 
 .App-link {
